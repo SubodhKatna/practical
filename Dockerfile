@@ -1,3 +1,3 @@
-FROM niginx
-WORKDIR /app
-COPY . /app/www/html
+FROM nginx:latest
+WORKDIR /usr/share/nginx/html
+COPY . .
